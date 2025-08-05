@@ -15,9 +15,9 @@
         </div>
 
         <!-- Nav-bar link for desktop-->
-         <nav :class="['fixed inset-0 z-20 flex flex-col items-center justify-center bg-[#111827] md:bg-transparent md:flex md:justify-between md:flex-row',
+         <nav :class="['fixed inset-0 z-20 flex flex-col items-center justify-center bg-[#111827] md:relative md:bg-transparent md:flex  md:flex-row md:justify-between',
           isMenuOpen? 'block':'hidden' ]">
-            <ul class="flex flex-col items-center space-y-5 md:flex-row md:items-start md:space-x-5 md:space-y-0">
+            <ul class="flex flex-col items-center space-y-5 md:flex-row md:space-x-5 md:space-y-0">
                 <li v-for="item in Menu" :key="item.name" @click="scrollToSection(item.href)">
                     <a :href="item.href" class="block text-white transition hover:text-primary ease-linear text-2xl md:text-lg">
                         {{ item.name }}
