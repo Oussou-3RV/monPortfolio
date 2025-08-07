@@ -4,7 +4,7 @@
 
         <!-- Mobile Toggle Button -->
         <div class="md:hidden z-30">
-            <button type="button" class="block focus:outline-none" @click="isMenuOpen = !isMenuOpen">
+            <button type="button" class="block focus:outline-none " @click="isMenuOpen = !isMenuOpen">
                 <span v-if="isMenuOpen" class="text-5xl close">
                     <i class="fa-solid fa-xmark" style="color: #fafafa; font-size: 2.3rem;"></i>
                 </span>

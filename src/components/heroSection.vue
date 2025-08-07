@@ -5,11 +5,11 @@
             <div class="h-20 w-3/5 bg-grandient-to-r from-[#670ccf] opacity-40 blur-2xl"></div>
         </div> -->
 
-        <div class="w-full px-5 sm:px-8 md:px-12 lg:px-8 max-w-screen-lg lg:max-w-[85%] mx-auto relative">
-            <div class="grid lg:grid-cols-2 gap-10 xl:gap-15 pt-24 relative border-2 border-red-500">
-                <div class="lg:py-6 border-2 border-white">
-                    <div class="text-center lg:text-left border-2 border-red-600">
-                        <h1 class="pt-4 text-white font-bold text-4xl md:text-5xl lg:text-6xl">
+        <div class="w-full px-5 sm:px-8 md:px-12 lg:px-8 max-w-screen-lg lg:max-w-[85%] mx-auto relative ">
+            <div class="grid lg:grid-cols-2 gap-10 xl:gap-15 pt-24 relative">
+                <div class="lg:py-6 ">
+                    <div class="text-center lg:text-left ">
+                        <h1 class="pt-4 text-white font-bold text-5xl lg:text-6xl">
                             Hi, i'm <span class="text-transparent bg-clip-text bg-gradient-to-tr from-primary to-pink-500">Ousmane</span> 😎
                         </h1>
                     </div>
@@ -18,7 +18,7 @@
                          Minus odit quod blanditiis corporis officia asperiores je rajoute du texte.
                         Voluptatem cum modi, incidunt doloribus sit at quis nulla eaque je ne sais pourquoi ??.
                     </p>
-                    <div class="flex flex-col justify-center gap-3 pt-9 md:flex-row md:w-full">
+                    <div class="flex flex-col gap-3 pt-9 md:flex-row md:w-full max-lg:justify-center ">
                         <!-- Bouton Hire Me -->
                         <button
                             class="bg-primary px-6 md:px-7 py-4 rounded-full relative group w-full md:w-max flex justify-center transition-all duration-300 hover:bg-primary/80 hover:-translate-y-1">
@@ -31,13 +31,12 @@
                             <div class="flex items-center gap-2">
                                 <i class="fa-solid fa-download" style="color: white;"></i>
                                 <a href="/resume.pdf" download="resume.pdf"
-                                    class="text-primary transition-colors duration-300 group-hover:text-white">Download
-                                    resume</a>
+                                    class="text-primary transition-colors duration-300 group-hover:text-white">Resume</a>
                             </div>
                         </button>
                     </div>
                 </div>
-                <div class="md:flex lg:h-full border-2 border-white">
+                <div class="md:flex lg:h-full ">
                     <div class="flex w-full min-h-96 lg:min-h-[none] lg:w-full lg:h-full justify-center relative">
                         <div></div>
                         <div class="absolute h-full z-10 p-2 -translate-y-1/2 top-1/2 rounded-full shadow-lg border border-primary    ">
