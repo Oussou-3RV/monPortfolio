@@ -6,11 +6,11 @@
         <div class="py-8 px-4 sm:py-16 grid grid-cols-1 gap-6 pt-10 sm:grid-cols-2 md:gap-10 md:pt-12 lg:grid-cols-3 xl:px-16">
             
             <div v-for="service in services" :key="service.id" data-aos="fade-up"
-            class="px-8 py-12 rounded-xl bg-[#111a3e] shadow-lg border border-[#1f1641]">
+                class="px-8 py-12 rounded-xl bg-[#111a3e] shadow-lg border border-[#1f1641]">
 
                 <div class="mx-auto w-20 h-24 text-center xl:h-28 xl:w-28">
                     <div>
-                        <img :src="service.icon" alt="photo">
+                        <img :src="service.icon" alt="icon">
                     </div>
                 </div>
                 <div class="text-center">
