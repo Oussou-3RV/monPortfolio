@@ -2,7 +2,7 @@
     <section class="relative w-full" data-aos="zoom-in-up">
         
         <div class="w-full px-5 sm:px-8 md:px-12 lg:px-8 max-w-screen-lg lg:max-w-[85%] mx-auto relative ">
-            <div class="grid lg:grid-cols-2 gap-10 xl:gap-15 pt-24 relative">
+            <div class="grid lg:grid-cols-2 gap-10 xl:gap-15 pt-24 relative ">
                 <div class="lg:py-6 ">
                     <div class="text-center lg:text-left ">
                         <h1 class="pt-4 text-white font-bold text-5xl lg:text-6xl">
@@ -35,7 +35,7 @@
                 <div class="md:flex lg:h-full ">
                     <div class="flex w-full min-h-96 lg:min-h-[none] lg:w-full lg:h-full justify-center relative">
                         <div></div>
-                        <div class="absolute h-full z-10 p-2 -translate-y-1/2 top-1/2 rounded-full shadow-lg border border-primary    ">
+                        <div class="absolute h-full z-10 p-2 -translate-y-1/2 top-1/2 rounded-full shadow-lg border border-primary">
                             <img src="/src/assets/dev.webp" alt="photo de moi" width="500" height="auto" loading="lazy"
                             class="w-full h-full rounded-full object-cover">
                         </div>

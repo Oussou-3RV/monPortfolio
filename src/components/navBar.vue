@@ -15,7 +15,7 @@
         </div>
 
         <!-- Nav-bar link -->
-        <nav :class="['fixed inset-0 z-20 flex flex-col items-center justify-center bg-[#111827] md:relative md:bg-transparent md:flex  md:flex-row md:justify-between',
+        <nav :class="['fixed inset-0 z-20 flex flex-col items-center justify-center bg-[#111827] md:relative md:bg-transparent md:flex md:flex-row md:justify-between',
             isMenuOpen ? 'block' : 'hidden']">
             <ul class="flex flex-col items-center space-y-5 md:flex-row md:space-x-5 md:space-y-0">
                 <li v-for="item in Menu" :key="item.name" @click="scrollToSection(item.href)">

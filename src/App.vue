@@ -6,6 +6,7 @@
       <serviceSection/>
       <aboutSection/>
       <experienceSkill/>
+      <latestProjectSection/>
     </div>
     
   </div>
@@ -23,6 +24,7 @@ const heroSection = defineAsyncComponent(()=>import('@/components/heroSection.vu
 const serviceSection = defineAsyncComponent(()=>import('@/components/serviceSection.vue'))
 const aboutSection = defineAsyncComponent(()=>import('@/components/aboutSection.vue'))
 const experienceSkill = defineAsyncComponent(()=>import('@/components/experienceAndSkills.vue'))
+const latestProjectSection = defineAsyncComponent(()=>import('@/components/latestProjectSection.vue'))
 
 
 </script>

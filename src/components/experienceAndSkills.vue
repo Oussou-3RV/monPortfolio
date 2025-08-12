@@ -28,7 +28,7 @@
                 <div class="space-y-8 py-8" data-aos="fade-left">
                     <div v-for="element in experiences" :key="element.id"
                         class="flex items-center rounded-xl p-4 bg-[#111a3e] shadow-lg border border-[#1f1641]">
-                        <div class="w-1/4">
+                        <div class="w-1/4 sm:mr-5">
                             <img src="https://img.icons8.com/?size=100&id=ScAViD0I8h4B&format=png&color=ffffff" alt="lawyer">
                         </div>
                         <div class="w-3/4">
