@@ -7,16 +7,17 @@
       <aboutSection/>
       <experienceSkill/>
       <latestProjectSection/>
+      <BackToTop/>
     </div>
     
   </div>
 </template>
 
 <script setup lang="ts">
-// import HeroSection from '@/components/heroSection.vue';
-// import navBar from '@/components/navBar.vue';
-// import aboutSection from './components/aboutSection.vue';
+
 import { defineAsyncComponent } from 'vue';
+
+
 
 //import component asynchronously
 const navBar = defineAsyncComponent(()=>import('@/components/navBar.vue'))
@@ -25,6 +26,8 @@ const serviceSection = defineAsyncComponent(()=>import('@/components/serviceSect
 const aboutSection = defineAsyncComponent(()=>import('@/components/aboutSection.vue'))
 const experienceSkill = defineAsyncComponent(()=>import('@/components/experienceAndSkills.vue'))
 const latestProjectSection = defineAsyncComponent(()=>import('@/components/latestProjectSection.vue'))
+const BackToTop = defineAsyncComponent(()=>import('@/components/BackToTop.vue'))
+
 
 
 </script>
